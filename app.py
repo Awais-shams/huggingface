@@ -2,7 +2,7 @@ import gradio as gr
 import mlflow.pyfunc
 import pandas as pd
 
-# Load feature names from the uploaded features file (replace with actual path if needed)
+# Load feature names from the uploaded features file 
 features_file = "./features.txt"  # Update the path if different
 with open(features_file, "r") as f:
     features = [line.strip().split()[1] for line in f.readlines()]
