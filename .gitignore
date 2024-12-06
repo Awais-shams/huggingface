@@ -1,0 +1,32 @@
+# Ignore Python virtual environments
+venv/
+ENV/
+env/
+.venv/
+huggingface/
+
+# Ignore MLflow artifacts
+mlruns/
+mlflow.log
+
+# Ignore Hugging Face cache
+.cache/
+transformers_cache/
+datasets_cache/
+
+# Ignore Gradio cache
+gradio_cache/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
